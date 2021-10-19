@@ -5,7 +5,7 @@
 #define MAX_SIZE (128)
 #define MAX_LINE (1024)
 
-int procitaj_datoteku(char* naziv_datoteke);
+int procitaj_broj_studenata_u_datoteci(char* naziv_datoteke);
 Student* alociraj_i_procitaj_studente(int brojStudenata, char* naziv_datoteke);
 
 
